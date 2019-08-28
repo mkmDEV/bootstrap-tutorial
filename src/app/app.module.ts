@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BlogPostComponent } from './components/blog-post/blog-post.component';
 import { SearchWidgetComponent } from './components/search-widget/search-widget.component';
 import { CategoryWidgetComponent } from './components/category-widget/category-widget.component';
+import { SideWidgetComponent } from './components/side-widget/side-widget.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CategoryWidgetComponent } from './components/category-widget/category-w
     FooterComponent,
     BlogPostComponent,
     SearchWidgetComponent,
-    CategoryWidgetComponent
+    CategoryWidgetComponent,
+    SideWidgetComponent
   ],
   imports: [
     BrowserModule
