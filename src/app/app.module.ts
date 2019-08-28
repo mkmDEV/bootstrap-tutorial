@@ -8,6 +8,7 @@ import { BlogPostComponent } from './components/blog-post/blog-post.component';
 import { SearchWidgetComponent } from './components/search-widget/search-widget.component';
 import { CategoryWidgetComponent } from './components/category-widget/category-widget.component';
 import { SideWidgetComponent } from './components/side-widget/side-widget.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SideWidgetComponent } from './components/side-widget/side-widget.compon
     SideWidgetComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
